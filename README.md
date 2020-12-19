@@ -7,6 +7,50 @@ Esse vídeo streaming é semelhante ao do Instagram, onde a relação é 1:N, ou
 ### Playlist no Youtube
 https://www.youtube.com/watch?v=gg8bbk8yhk8&list=PL4OYVwyd_80pxIthSuGxyg55Edr9vO1g-
 
+## How To Use
+
+```bash
+# Clone this repository
+$ git clone https://github.com/kingaspx/VideoStream-ReactJS-Node
+```
+
+## Server
+
+```
+# Server
+$ cd server
+
+# Install dependencies
+$ npm install / yarn dev
+
+# Run the server
+$ npm start / yarn dev
+```
+## Client
+
+```
+# Client
+$ cd client
+
+# Install dependencies
+$ npm install / yarn start
+
+# Run the server
+$ npm start / yarn start
+```
+
+------------------------------
+
+
+## Credits
+
+- [Memojis Kingaspx](http://memoji.kingaspx.com/)
+- [Node.js](https://nodejs.org/)
+- [ReactJS](https://pt-br.reactjs.org/)
+- [PeerJS](https://peerjs.com/)
+- [MediaStream](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream/)
+- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
+
 -------
 
 ### FrontEnd Screenshot
