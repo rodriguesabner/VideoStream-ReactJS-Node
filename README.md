@@ -7,6 +7,8 @@ Esse vídeo streaming é semelhante ao do Instagram, onde a relação é 1:N, ou
 ### Playlist no Youtube
 https://www.youtube.com/watch?v=gg8bbk8yhk8&list=PL4OYVwyd_80pxIthSuGxyg55Edr9vO1g-
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](abner.rodrigues20@hotmail.com)
+
 ## How To Use
 
 ```bash
