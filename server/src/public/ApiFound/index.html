@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: 0;
+        }
+
+        html,
+        body,
+        #root {
+            height: 100%;
+        }
+
+        body {
+            text-rendering: optimizeLegibility !important;
+            -webkit-font-smoothing: antialiased !important;
+            background: #181818;
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+        }
+
+        #root {
+            display: grid;
+            place-items: center;
+            width: 100%;
+        }
+
+        #main {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h1 {
+            color: #41A851;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    </style>
+
+    <title>Server is Running</title>
+</head>
+
+<body>
+    <div id="root">
+        <div id="main">
+            <img src="https://res.cloudinary.com/kingaspx/image/upload/v1608055007/e8qz1qily5tnlzi3dvby.svg"
+                draggable="false" alt="Memoji Success" />
+
+            <h1>Servidor Online</h1>
+
+            <h2>
+                O seu servidor está funcionando!
+            </h2>
+
+            <p>
+                Esta tela é a rota inicial do seu servidor.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

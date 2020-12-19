@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: 0;
+        }
+
+        html,
+        body,
+        #root {
+            height: 100%;
+        }
+
+        body {
+            text-rendering: optimizeLegibility !important;
+            -webkit-font-smoothing: antialiased !important;
+            /* #41A851 */
+            background: #181818;
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+        }
+
+        #root {
+            display: grid;
+            place-items: center;
+            width: 100%;
+        }
+
+        #main {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h1 {
+            color: #E33332;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    </style>
+
+    <title>Route Not Found</title>
+</head>
+
+<body>
+
+    <div id="root">
+        <div id="main">
+            <img src="https://res.cloudinary.com/kingaspx/image/upload/v1608050083/emzvxrzlhknodwkwuaei.svg"
+                draggable="false" alt="Memoji Success" />
+
+            <h1>Rota não encontrada</h1>
+
+            <h2>
+                Esta rota foi movida ou não existe.
+            </h2>
+
+            <p>
+                Verifique a URL e tente novamente!
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
